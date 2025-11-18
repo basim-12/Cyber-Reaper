@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Reaper - Negotiation Portal</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #e0e0e0;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            border: 2px solid #ff3333;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(255, 51, 51, 0.2);
+        }
+        h1 {
+            color: #ff3333;
+            text-align: center;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ff3333;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #ffffff;
+            background-color: #330000;
+            padding: 5px;
+            margin-top: 30px;
+        }
+        .alert-box {
+            background-color: #330000;
+            border: 1px solid #ff3333;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .timer {
+            font-size: 2em;
+            color: #ff3333;
+        }
+        /* Updated grid to handle 3 items comfortably */
+        .artifacts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .artifact {
+            border: 1px dashed #666;
+            padding: 10px;
+            background: #1a1a1a;
+        }
+        .timeline {
+            border-left: 2px solid #ff3333;
+            padding-left: 20px;
+            margin-left: 10px;
+        }
+        .timeline-item {
+            margin-bottom: 15px;
+        }
+        .timeline-date {
+            color: #ff3333;
+            font-weight: bold;
+        }
+        .defender-box {
+            margin-top: 40px;
+            background-color: #1a331a; 
+            border: 2px solid #00ff00;
+            padding: 15px;
+            color: #ccffcc;
+        }
+        .defender-title {
+            color: #00ff00;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>CYBER REAPER v2.0</h1>
+    
+    <div class="alert-box">
+        <p>ATTENTION: GLOBAL FLOW LOGISTICS</p>
+        <p>Your network has been breached. All files are encrypted. <br>Internal backups have been deleted.</p>
+        <p>PRICE TO DECRYPT: <strong>150 BITCOIN</strong></p>
+    </div>
+
+    <div style="text-align: center; margin: 20px;">
+        <p>Time remaining until data is leaked publicly:</p>
+        <div class="timer">47 : 12 : 05</div>
+    </div>
+
+    <h2>PROOF OF COMPROMISE (ARTIFACTS)</h2>
+    <div class="artifacts-grid">
+        
+        <div class="artifact">
+            <strong>Artifact A: Stolen Data Structure</strong>
+            <pre>
+/FINANCE/
+├── Q3_Earnings.xlsx
+├── Payroll_2025.pdf
+└── Wire_Transfers.csv
+/HR/
+├── Employee_SSN.txt
+└── Terminations.docx
+            </pre>
+            <small><i>Status: UPLOADED</i></small>
+        </div>
+
+        <div class="artifact">
+            <strong>Artifact B: Admin Chat Intercept</strong>
+            <p style="font-size: 0.9em;">
+                <span style="color: #888;">[Admin]:</span> Why can't I access the SAN?<br>
+                <span style="color: #ff3333;">[Cyber Reaper]:</span> Check your desktop wallpaper.<br>
+                <span style="color: #888;">[Admin]:</span> Who is this?<br>
+                <span style="color: #ff3333;">[Cyber Reaper]:</span> We are your new partners.
+            </p>
+        </div>
+
+        <div class="artifact">
+            <strong>Artifact C: Server Status Log</strong>
+            <pre style="color: #ff3333; font-size: 0.8em;">
+[10:00] SQL_DB_01: OFFLINE
+[10:01] MAIL_EXCH: ENCRYPTED
+[10:02] BACKUP_01: DELETED
+[10:03] BACKUP_02: DELETED
+[10:05] DOMAIN_CTRL: LOCKED
+            </pre>
+            <small><i>System Status: CRITICAL</i></small>
+        </div>
+
+    </div>
+
+    <h2>ATTACK TIMELINE</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-date">PHASE 1: RECON (Weeks 1-2)</div>
+            <p>We bought stolen login passwords from the dark web. Then, we quietly searched their network to find the main server.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">PHASE 2: GETTING CONTROL (Week 3)</div>
+            <p>We installed hidden spy software. We found a security flaw to get "Admin" access and turned off their antivirus software.</p>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-date">PHASE 3: THE ATTACK (Day 0)</div>
+            <p>We stole 4TB of private files first. Then, we sent the virus to every computer at once and locked the whole company out.</p>
+        </div>
+    </div>
+
+    <div class="defender-box">
+        <div class="defender-title">🛡️ DEFENDER'S PLAYBOOK (How to Stop Us)</div>
+        <ul>
+            <li><strong>Offline Backups:</strong> Keep copies of data unplugged from the network. If we can't reach the backups, we can't delete them.</li>
+            <li><strong>Multi-Factor Authentication (MFA):</strong> Require a code from a phone app for logins. Even if we steal a password, we still can't get in.</li>
+            <li><strong>Separate the Network:</strong> Don't let every computer access everything. Keep the finance and HR data in a separate, locked zone.</li>
+            <li><strong>Active Monitoring:</strong> Use advanced security software that watches for suspicious behavior (like copying huge files) instead of just looking for old viruses.</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
